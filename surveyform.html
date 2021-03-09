@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <meta name="Author" content="Arpit Patrange">
+    <meta name= "Description" content="Application For Permission To Date My Daughter">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="surveyform.css">
+    <title> Application For Permisssion To Date My Daughter  </title>
+     
+</head>
+<body> 
+    <header>
+        
+    </header>
+    <main>
+        
+        <form method="GET" class="background" >
+            <h1 class="textal" style="text-align: center; text-decoration: underline;"> Application For Permisssion To Date My Daughter </h1><br>
+            <p class="margin"> <strong> Personal Details</strong></p>
+
+            <div class="border">
+            <label for="name"> Name:</label>
+            <input type="text" id="name" required name="name"><br><br>
+            <label for="address"> Addresss:</label>
+            <input type="text" id="address" required name="address"><br><br>
+            <label for="email"> Email: </label>
+            <input type="email" id="email" required name="email"><br><br>
+            <label for="phnumber"> Phone Number: </label>
+            <input type="tel" id="phnumber" required name="phnumber"><br><br>
+            <label for="iq"> IQ: </label>
+            <input type="number" id="iq" required name="iq"><br><br>
+
+            <label> Gender </label><br><br>
+            <label for="male"> Male: </label>
+            <input type="radio" value="Male" id="male" name="gender"><br><br>
+            <label for="female"> Female: </label>
+            <input type="radio" value="Female" id="female" name="gender"><br><br>
+            <label for="other"> Other </label>
+            <input type="radio" value="Other" id="other" name="gender"><br><br>
+
+
+            <label> Date Of Proposed Outing : </label>
+            <input type="date" required name="date"><br><br>
+
+
+            </div>
+            <div class="border">
+                <p><strong> Check all that apply </strong> </p>
+               
+                <label for="c1">  <input type="checkbox" id="c1" > I have tattos and /or pierciengs</label><br><br>
+                <label for="c2">  <input type="checkbox" id="c2"> I am more than 2 years older than my daughter</label><br><br>
+                <label for="c3">  <input type="checkbox" id="c3"> I own a panel van or V8 ute</label><br><br>
+                <label for="c4">  <input type="checkbox" id="c4"> I work full-time</lable><br><br>
+                <label for="c5">  <input type="checkbox" id="c5"> My parents are rich</label><br><br>
+                <label for="c6">  <input type="checkbox" id="c6"> Is the date at a well lit public location</label><br><br>
+            </div>
+
+            <div class="border">
+                <label id="s1"> Political Persuasion:</label>
+                <select id="s1">
+                    <option> Left wing </option>
+                    <option> Right wing </option>
+                    <option>  Conservative </option>
+                    <option> Nazi </option>
+                </select>
+
+                <label id="s2"> Education Level Completed:</label>
+                <select id="s2">
+                    <option> University </option>
+                    <option> College </option>
+                    <option>  Highschool </option>
+                    <option> None </option>
+                </select><br><br>
+
+
+            </div class="border">
+
+            <p class="margin">  <strong> Essay Section</strong></p>
+            <div class="border">
+                <label for="text1"> In 50 words or more explain why you want to date my daughter </label><br><br>
+                <textarea name="explanation" id="" cols="45" rows="6" placeholder="Enter Text Here" id="text1"></textarea><br><br>
+                
+                <label for="text2">Please upload contact details for 2 references </label><br><br>
+                <textarea name="explanation" id="" cols="45" rows="6" placeholder="Enter Text Here" id="text2"></textarea><br><br>
+
+                <label> Police Clearance Certificate, Bank Statement and Medical Certifiates here:</label> 
+                <input type="file"><br><br>            
+            </div>
+            <input type="submit" value="Send Your Application" style="align-items: center; margin-left: 40px; background-color: red; size: 40px;" >
+            
+
+
+
+        
+        </form>
+       
+    
+    </main>
+        
+</body>
+</html>

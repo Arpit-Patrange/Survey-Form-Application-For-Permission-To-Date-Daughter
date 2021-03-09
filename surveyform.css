@@ -1,0 +1,35 @@
+:root{
+    font-family: 'Shippori Mincho B1', serif;
+    background-color :lightgoldenrodyellow;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.background{
+    background-color:white;
+    margin: 10%;
+    border-radius: 20px;
+   
+}
+
+.border{
+    border-color: grey;
+    border-radius: 10px;
+    margin: 20px;
+    border-style:solid;
+    padding: 30px;
+    color: rgb(63, 60, 60);
+    box-sizing: content-box;
+}
+
+
+.margin{
+    padding-left: 35px;
+    font-size: larger;
+}
+
+.button{
+    align-self: center;
+
+}
